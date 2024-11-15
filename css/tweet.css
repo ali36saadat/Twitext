@@ -1,0 +1,63 @@
+.tweet__information {
+   display: flex;
+}
+
+.tweet__information-username {
+   padding-right: 10px;
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.tweet__information-name {
+   font-weight: 300;
+   font-size: 16px;
+   color: #71767b;
+}
+
+.tweet__content {
+   padding: 10px;
+   margin: 5px;
+   font-weight: 400;
+   background: #0a0a0a;
+   border-radius: 8px;
+   color: white;
+}
+
+.tweet__detail {
+   padding: 0 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.tweet__detail-like {
+   display: flex;
+}
+
+.tweet__detail-like-icon {
+   margin-right: 5px;
+   background: black;
+   border: none;
+   cursor: pointer;
+}
+
+.tweet__detail-like-digits {
+   font-weight: 300;
+   padding-top: 6px;
+}
+
+.tweet__detail-comment {
+   display: flex;
+}
+
+.tweet__detail-comment-icon {
+   margin-right: 5px;
+   background: black;
+   border: none;
+   cursor: pointer;
+   padding-top: 5px;
+}
+
+.tweet__detail-comment-digits {
+   font-weight: 300;
+   padding-top: 6px;
+}

@@ -1,0 +1,115 @@
+/* IMPORTS */
+@import url("./nav.css");
+@import url("./newTweet.css");
+@import url("./singIn.css");
+@import url("./profile.css");
+@import url("./login.css");
+@import url("./tweet.css");
+@import url("./search.css");
+@import url("./editProfile.css");
+@import url("./comment.css");
+
+/* Default Style */
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: inherit;
+}
+
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+body {
+   font-family: "Roboto", serif;
+   font-weight: 100;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.6;
+   background-color: black;
+   font-size: 1.4rem;
+   height: 90vh;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+.root {
+   color: white;
+
+   width: 400px;
+   min-height: 95vh;
+
+   background-color: black;
+
+   overflow: hidden;
+   margin: 0 auto;
+   grid-gap: 0px;
+
+   -webkit-box-shadow: inset 0px 0px 0px 1px #2f3336;
+   -moz-box-shadow: inset 0px 0px 0px 1px #2f3336;
+   box-shadow: inset 0px 0px 0px 1px #2f3336;
+}
+
+.hiddenVisibility {
+   visibility: hidden;
+}
+
+.hiddenDisplay {
+   display: none;
+}
+
+textarea {
+   resize: none;
+}
+
+.content__title {
+   position: fixed;
+   height: 60px;
+   width: 400px;
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   color: white;
+   background-color: black;
+   border: 1px solid #2f3336;
+}
+
+/* Font Style */
+.roboto-thin {
+   font-family: "Roboto", serif;
+   font-weight: 100;
+   font-style: normal;
+}
+
+.roboto-light {
+   font-family: "Roboto", serif;
+   font-weight: 300;
+   font-style: normal;
+}
+
+.roboto-regular {
+   font-family: "Roboto", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.roboto-medium {
+   font-family: "Roboto", serif;
+   font-weight: 500;
+   font-style: normal;
+}
+
+.roboto-bold {
+   font-family: "Roboto", serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.roboto-black {
+   font-family: "Roboto", serif;
+   font-weight: 900;
+   font-style: normal;
+}

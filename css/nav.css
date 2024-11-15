@@ -1,0 +1,36 @@
+.footer__icon {
+   background: black;
+   border: none;
+   cursor: pointer;
+}
+
+.footer {
+   background-color: black;
+
+   height: 60px;
+   width: 400px;
+   max-width: 400px;
+
+   position: fixed;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+
+   text-align: center;
+   line-height: 6px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   overflow: hidden;
+   z-index: 10;
+   -webkit-box-shadow: inset 0px 0px 0px 1px #2f3336;
+   -moz-box-shadow: inset 0px 0px 0px 1px #2f3336;
+   box-shadow: inset 0px 0px 0px 1px #2f3336;
+}
+
+.footer__icon {
+   padding: 5px;
+}

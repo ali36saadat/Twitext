@@ -1,0 +1,49 @@
+<!-- Profile Section -->
+<div class="information">
+   <div class="information__left">
+      <div class="information__name"></div>
+      <div class="information__username"></div>
+   </div>
+   <div class="information__right">
+      <div class="information__right-myself hiddenVisibility hiddenDisplay">
+         <button class="information__right-edit">Edit profile</button>
+         <button class="information__right-logout">log out</button>
+      </div>
+
+      <div class="information__right-themselves hiddenVisibility hiddenDisplay">
+         <button class="information__right-follow" onclick="followUser()">
+            Follow
+         </button>
+      </div>
+   </div>
+</div>
+
+<div class="requestList hiddenVisibility hiddenDisplay" id="requestList">
+   <h3>Request List</h3>
+</div>
+
+<div class="bio">
+   <h3 class="bio__title">Bio:</h3>
+   <p class="bio__text"></p>
+</div>
+
+<div class="detail">
+   <div class="detail__left">
+      <div class="detail__left-follower">
+         <span class="detail__left-follower-digits"></span>
+         <span class="detail__left-follower-title">&nbsp;Followers</span>
+      </div>
+
+      <div class="detail__left-following">
+         <span class="detail__left-following-digits"></span>
+         <span class="detail__left-following-title">&nbsp;Following</span>
+      </div>
+   </div>
+
+   <div class="detail__right">
+      <div class="detail__right-post">
+         <span class="detail__right-post-digits"></span>
+         <span class="detail__right-post-title">&nbsp;Posts</span>
+      </div>
+   </div>
+</div>

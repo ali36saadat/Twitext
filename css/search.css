@@ -1,0 +1,42 @@
+.search__input {
+   width: 320px;
+   height: 40px;
+   background: black;
+   color: white;
+   border: 1px solid #333639;
+   margin: 5px 0px;
+   padding: 5px 20px;
+   border-radius: 50px;
+   font-size: 16px;
+}
+
+.userFound__information {
+   display: flex;
+}
+
+.userFound__information-username {
+   padding-right: 10px;
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.userFound__information-name {
+   font-weight: 300;
+   font-size: 16px;
+   color: #71767b;
+}
+
+.userFound__information-bio {
+   font-weight: 400;
+   margin: 0 10px;
+   color: #8e8e8e;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
+.userFound__container > div:not(:last-child) {
+   border-bottom: 0.5px solid #2f3336;
+}

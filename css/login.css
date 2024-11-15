@@ -1,0 +1,94 @@
+.login {
+   color: white;
+   width: 400px;
+   padding: 20px;
+   margin: 0 auto;
+   margin-top: 5%;
+}
+
+.login > * {
+   text-align: center;
+}
+
+.login__container {
+   margin-top: 20px;
+}
+
+.login__inputs {
+   display: grid;
+   grid-template-rows: repeat(2, minmax(0, 1fr));
+   align-items: center;
+
+   gap: 10px;
+}
+
+.login__input {
+   background: black;
+   height: 36px;
+   border: 1px solid #333639;
+   border-radius: 4px;
+   padding: 0 10px;
+   color: white;
+}
+
+.login__input-un {
+   grid-column: 1 / -1;
+}
+
+.login__input-pw {
+   grid-column: 1 / -1;
+}
+
+.login__submit {
+   border-bottom: 0.1px solid white;
+   padding-bottom: 10px;
+}
+
+.login__change {
+   margin-top: 20px;
+}
+
+.login__submit-btn {
+   margin: 20px 0;
+   padding: 10px 45px;
+   border-radius: 35px;
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.login__change-title-btn {
+   margin-top: 10px;
+   padding: 10px 45px;
+   border-radius: 35px;
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+   cursor: pointer;
+}
+
+.forget__pass {
+   padding: 2px 4px;
+   text-align: left;
+}
+
+.forget__pass a {
+   color: white;
+   text-decoration: none;
+}
+.forget__pass a:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+.logo__container {
+   position: absolute;
+   display: flex;
+   width: 370px;
+   bottom: 50px;
+}
+
+.twitextLogo__signIn {
+   margin: auto;
+}

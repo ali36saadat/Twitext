@@ -1,0 +1,88 @@
+.sign {
+   color: white;
+   width: 400px;
+   padding: 20px;
+   margin: 0 auto;
+   margin-top: 5%;
+}
+
+.sign > * {
+   text-align: center;
+}
+
+.sign__container {
+   margin-top: 20px;
+}
+
+.sign__inputs {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   grid-template-rows: repeat(3, minmax(0, 1fr));
+   align-items: center;
+   gap: 10px;
+}
+
+.sign__input {
+   background: black;
+   height: 36px;
+   border: 1px solid #333639;
+   border-radius: 4px;
+   padding: 0 10px;
+   color: white;
+}
+
+.sign__input-fn {
+   grid-column: 1 / 2;
+}
+
+.sign__input-ln {
+   grid-column: 2/ 3;
+}
+
+.sign__input-un {
+   grid-column: 1 / -1;
+}
+
+.sign__input-pw {
+   grid-column: 1 / -1;
+}
+
+.sign__submit {
+   border-bottom: 0.1px solid white;
+   padding-bottom: 10px;
+}
+
+.sign__change {
+   margin-top: 20px;
+}
+
+.sign__submit-btn {
+   margin: 20px 0;
+   padding: 10px 45px;
+   border-radius: 35px;
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.sign__change-title-btn {
+   margin-top: 10px;
+   padding: 10px 45px;
+   border-radius: 35px;
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+   cursor: pointer;
+}
+
+.logo__container {
+   position: absolute;
+   display: flex;
+   width: 370px;
+   bottom: 50px;
+}
+
+.twitextLogo__signIn {
+   margin: auto;
+}
