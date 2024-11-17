@@ -16,6 +16,13 @@
    box-sizing: inherit;
 }
 
+a,
+a:hover,
+a:active {
+   color: white;
+   text-decoration: none;
+}
+
 html {
    box-sizing: border-box;
    font-size: 62.5%;
