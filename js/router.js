@@ -2,7 +2,7 @@
 import User from "./Class/User.js"
 import Tweet from "./Class/Tweet.js"
 import currentUser from "./main.js"
-import signInExport from "./signIn.js"
+import signUpExport from "./signUp.js"
 import loginExport from "./login.js"
 import homeExport from "./home.js"
 import newTweetExport from "./newTweet.js"
@@ -18,7 +18,7 @@ const routes = {
    "#home": "/pages/home.html",
    "#search": "/pages/search.html",
    "#profile": "/pages/profile.html",
-   "#signIn": "/pages/signIn.html",
+   "#signUp": "/pages/signUp.html",
    "#login": "/pages/login.html",
    "#search": "/pages/search.html",
    "#editProfile": "/pages/editProfile.html",
@@ -49,9 +49,9 @@ const handleScript = function (e) {
    const pathFunc = e.replace(/(#[^\W_]+).*/, "$1")
    const fragment = e.split("?=")[1]
 
-   if (pathFunc == "#signIn") {
-      document.getElementById("contentTitle").innerHTML = "SIGN IN"
-      signInExport()
+   if (pathFunc == "#signUp") {
+      document.getElementById("contentTitle").innerHTML = "SIGN UP"
+      signUpExport()
    } else if (pathFunc == "#login") {
       document.getElementById("contentTitle").innerHTML = "LOGIN"
       loginExport()

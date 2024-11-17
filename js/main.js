@@ -19,7 +19,7 @@ if (currentUser) {
    const hashLocation = window.location.hash
    if (
       hashLocation == "#login" ||
-      hashLocation == "#signIn" ||
+      hashLocation == "#signUp" ||
       hashLocation == ""
    ) {
       handleLocation("#home")
@@ -29,5 +29,5 @@ if (currentUser) {
    addNav()
 } else {
    //user is logged - Show Sign In Page
-   handleLocation("#signIn")
+   handleLocation("#signUp")
 }

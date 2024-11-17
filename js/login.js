@@ -7,7 +7,7 @@ const loginExport = function () {
    const loginErr = document.querySelector(".login__submit-error")
    const UN_input = document.querySelector(".login__input-un")
    const PW_input = document.querySelector(".login__input-pw")
-   const changeToSignIn = document.querySelector(".login__change-title-btn")
+   const changeTosignUp = document.querySelector(".login__change-title-btn")
 
    UN_input.value = ""
    PW_input.value = ""
@@ -31,8 +31,8 @@ const loginExport = function () {
       }
    })
 
-   changeToSignIn.addEventListener("click", function () {
-      handleLocation("#signIn")
+   changeTosignUp.addEventListener("click", function () {
+      handleLocation("#signUp")
    })
 }
 

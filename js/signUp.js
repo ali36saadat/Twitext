@@ -2,10 +2,10 @@
 import User from "./Class/User.js"
 import handleLocation from "./router.js"
 
-//SingIn Logic Function
-const signInExport = function () {
-   const signInBtn = document.querySelector(".sign__submit-btn")
-   const signInErr = document.querySelector(".sign__submit-error")
+//signIn Logic Function
+const signUpExport = function () {
+   const signUpBtn = document.querySelector(".sign__submit-btn")
+   const signUpErr = document.querySelector(".sign__submit-error")
    const FN_input = document.querySelector(".sign__input-fn")
    const LN_input = document.querySelector(".sign__input-ln")
    const UN_input = document.querySelector(".sign__input-un")
@@ -17,7 +17,7 @@ const signInExport = function () {
    UN_input.value = ""
    PW_input.value = ""
 
-   signInBtn.addEventListener("click", function () {
+   signUpBtn.addEventListener("click", function () {
       if (
          FN_input.value &&
          LN_input.value &&
@@ -42,12 +42,12 @@ const signInExport = function () {
             UN_input.value = ""
             PW_input.value = ""
          } else {
-            signInErr.classList.remove("hiddenVisibility")
-            signInErr.textContent = "Username is not available"
+            signUpErr.classList.remove("hiddenVisibility")
+            signUpErr.textContent = "Username is not available"
          }
       } else {
-         signInErr.classList.remove("hiddenVisibility")
-         signInErr.textContent = "Inputs are empty"
+         signUpErr.classList.remove("hiddenVisibility")
+         signUpErr.textContent = "Inputs are empty"
       }
    })
 
@@ -56,4 +56,4 @@ const signInExport = function () {
    })
 }
 
-export default signInExport
+export default signUpExport

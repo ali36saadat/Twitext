@@ -15,9 +15,15 @@
 }
 
 .userFound__information-username {
+   color: white;
+   text-decoration: none;
    padding-right: 10px;
    font-weight: 500;
    font-size: 16px;
+}
+
+.userFound__information-username:hover {
+   color: white;
 }
 
 .userFound__information-name {
